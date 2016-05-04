@@ -13,3 +13,8 @@ puts footman.health_points
 peasant = Peasant.new
 
 puts peasant.health_points
+
+barracks = Barracks.new
+
+puts barracks.damage(5)
+puts barracks.health_points
